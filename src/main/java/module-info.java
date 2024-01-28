@@ -6,6 +6,8 @@ module com.example.gestiondepedidos {
     requires org.hibernate.orm.core;
     requires java.naming;
     requires java.sql;
+    requires jasperreports;
+
 
 
     opens com.example.gestiondepedidos.usuario;
